@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
     margin:0;
-    background:#eeeeee;
+    background:#f2f2f2;
 }
 
 header{
@@ -23,6 +23,10 @@ nav a{
     margin:15px;
 }
 
+nav a:hover{
+    text-decoration:underline;
+}
+
 .grid{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -30,13 +34,14 @@ nav a{
     padding:20px;
 }
 
-div{
+.grid div{
     background:white;
-    padding:15px;
+    padding:20px;
 }
 
 img{
     width:100%;
+    height:auto;
 }
 
 table{
@@ -46,6 +51,11 @@ table{
 
 table, th, td{
     border:1px solid black;
+}
+
+th{
+    background:#c8102e;
+    color:white;
 }
 
 th, td{
@@ -58,4 +68,5 @@ footer{
     color:white;
     text-align:center;
     padding:15px;
+    margin-top:20px;
 }
